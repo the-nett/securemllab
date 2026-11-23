@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SecureML Lab</title>
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<div id="app">
+  <header><span class="logo">SecureML Lab</span><span class="crumb" id="crumb"></span></header>
+  <main>
+    <div class="content"></div>
+    <div id="byte" title="Byte, tu guía">
+      <svg viewBox="0 0 64 64" aria-hidden="true">
+        <line x1="32" y1="4" x2="32" y2="12" stroke="#1f2a44" stroke-width="3"/>
+        <circle cx="32" cy="4" r="3" fill="#11786b"/>
+        <rect x="12" y="12" width="40" height="30" rx="9" fill="#1f2a44"/>
+        <rect x="18" y="19" width="28" height="15" rx="6" fill="#e3f1ee"/>
+        <circle cx="26" cy="26" r="3" fill="#11786b"/><circle cx="38" cy="26" r="3" fill="#11786b"/>
+        <path d="M27 31 q5 3 10 0" stroke="#11786b" stroke-width="2" fill="none"/>
+        <rect x="20" y="44" width="24" height="16" rx="5" fill="#11786b"/>
+        <path d="M28 50 l4 4 l4 -4" stroke="#fff" stroke-width="2" fill="none"/>
+      </svg>
+      <div>Byte</div>
+    </div>
+  </main>
+  <footer>
+    <button class="btn fill" id="btnPrev">« Anterior</button>
+    <span class="sp"></span>
+    <button class="btn" id="btnMenu">Menú</button>
+    <button class="btn" id="btnAudio">Escuchar audio</button>
+    <span class="sp"></span>
+    <button class="btn fill" id="btnNext">Siguiente »</button>
+  </footer>
+</div>
+<div id="toast"></div>
+<script src="js/app.js"></script>
+</body>
+</html>
